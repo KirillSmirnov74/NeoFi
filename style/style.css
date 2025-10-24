@@ -1,6 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
+.features {
+  padding: 80px 0;
+  background-color: #000;
+}
+.features__container {
+  padding: 0 20px;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.features__btn {
+  max-width: 100px;
+  font-family: "Alexandria", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  color: #9DFF3A;
+  padding: 11px 21px;
+  border: 1px solid #2E2E2E;
+  border-radius: 24px;
+  background: transparent;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.features__heading {
+  font-family: "Alexandria", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 48px;
+  text-transform: capitalize;
+  color: #E5E5E5;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.features__text {
+  max-width: 644px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #999999;
+  margin: 0 auto;
+  padding: 0px 10px;
+  margin-bottom: 80px;
+}
+.features__wrapper {
+  width: 100%;
+  display: flex;
+  -moz-column-gap: 24px;
+       column-gap: 24px;
+}
+
+.feature {
+  width: calc((100% - 48px) / 3);
+  padding: 48px 36px;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 12px;
+  border: 1px solid;
+  border-image-source: linear-gradient(272.36deg, rgba(77, 77, 77, 0.6) -14.37%, rgba(179, 179, 179, 0.6) 116.83%);
+  border-image-slice: 1;
+}
+.feature__wrapper-image {
+  width: 48px;
+  height: 48px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 36px;
+}
+.feature__heading {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: #E5E5E5;
+  margin-bottom: 16px;
+}
+.feature__info {
+  font-family: "Alexandria", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: #999999;
+}/*# sourceMappingURL=style.css.map */
